@@ -1,0 +1,69 @@
+
+body {
+    background-image: url(Resources_Images/BACKGROUND/sunset-on-a-beach.gif);
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-size: contain;
+}
+.txtHead {
+    color:cadetblue;
+    text-align: center;
+    font-weight: bold;
+    font-size: 8em;
+}
+p{
+    margin: 0; 
+    padding: 0; 
+    text-align: center;
+    line-height: 20px; 
+}
+.txt{
+    font-size: 40px;
+    color:aliceblue;
+    height:80px;
+
+}
+.Jobs {
+    margin-right: 20px; 
+    width: 25%;
+    border: 3px solid rgb(224, 163, 48);
+    border-radius: 25px;
+    height: 500px;
+    background-image: url(Resources_Images/professional-background-2b3p57557lfg0y5g.jpg);
+    background-color: rgb(255, 0, 0);
+    transition-property: transform;
+    transition-duration: 1s;
+}
+
+.Jobs:hover {
+    transform: scale(1.1);
+}
+
+.container {
+    width : 100%;
+}
+.containerHead {
+    padding-top: 200px;
+    width : 100%;
+    padding-bottom: 400px;
+}
+div {
+    box-sizing: border-box;
+    padding: 0;
+    width:100%;
+    margin: 0;
+}
+.jobcontainer{
+    display:flex;
+    padding: 50px;
+    background-image: url(Resources_Images/BACKGROUND/business-background-18.png);
+    background-size: cover;
+    position: relative;
+}
+.outline{
+    font: 800 Arial;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 3px;
+}
+
